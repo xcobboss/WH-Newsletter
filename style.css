@@ -249,6 +249,10 @@ a.button-link:active {
 }
 
 @media (max-width: 768px) {
+    body { 
+    margin: 10px;
+    }
+    
     h1 {
     font-size: 22px;
 	}
