@@ -1,0 +1,148 @@
+<div class="my-elementor-container">
+    <!-- Your HTML content goes here -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Subscriptions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Ensure this path is correct -->
+</head>
+
+
+<body>
+    <form id="email-form" action="#" method="post">
+	<h1>Email Subscriptions</h1>
+    <div class="input-row">
+        <div class="input-group">
+            <label class="input-label" for="first-name">
+                <span class="label-text">First Name</span>
+                <input type="text" id="first-name" name="first-name" required>
+            </label>
+        </div>
+        <div class="input-group">
+            <label class="input-label" for="last-name">
+                <span class="label-text">Last Name</span>
+                <input type="text" id="last-name" name="last-name" required>
+            </label>
+        </div>
+    </div>
+    <div class="input-row">
+        <div class="input-group">
+            <label class="input-label" for="email">
+                <span class="label-text">Email</span>
+                <input type="email" id="email" name="email" required>
+            </label>
+        </div>
+        <div class="input-group">
+            <label class="input-label" for="postal-code">
+                <span class="label-text">Postal Code</span>
+                <input type="text" id="postal-code" name="postal-code" required>
+            </label>
+        </div>
+    </div>
+		
+        <h3 class="heading">Wine Regions</h3>
+		<div class="checkboxes-container">
+		
+            <div class="checkbox-group">
+		<input type="checkbox" id="check-all" name="check-all">
+		<label for="check-all"><b>Check All</b></label><br>
+
+		<input type="checkbox" id="argentina" name="wine-region" value="Argentina">
+		<label for="argentina">Argentina</label><br>
+		
+		<input type="checkbox" id="australia" name="wine-region" value="Australia">
+		<label for="australia">Australia</label><br>
+		
+		<input type="checkbox" id="austria" name="wine-region" value="Austria">
+		<label for="austria">Austria</label><br>
+		
+		<input type="checkbox" id="california" name="wine-region" value="California">
+		<label for="california">California</label><br>
+		
+		<input type="checkbox" id="chile" name="wine-region" value="Chile">
+		<label for="chile">Chile</label><br>
+		
+		<input type="checkbox" id="france" name="wine-region" value="France">
+		<label for="france">France</label><br>
+		
+		<input type="checkbox" id="germany" name="wine-region" value="Germany">
+		<label for="germany">Germany</label><br>
+		
+		<input type="checkbox" id="italy" name="wine-region" value="Italy">
+		<label for="italy">Italy</label><br>
+		</div>
+		
+			<div class="checkbox-group">
+		<input type="checkbox" id="japan" name="wine-region" value="Japan">
+		<label for="japan">Japan</label><br>
+		
+		<input type="checkbox" id="new-zealand" name="wine-region" value="New Zealand">
+		<label for="new-zealand">New Zealand</label><br>
+		
+		<input type="checkbox" id="oregon" name="wine-region" value="Oregon">
+		<label for="oregon">Oregon</label><br>
+
+		<input type="checkbox" id="other-imports" name="wine-region" value="Other Imports">
+		<label for="other-imports">Other Imports</label><br>
+		
+		<input type="checkbox" id="other-usa" name="wine-region" value="Other USA">
+		<label for="other-usa">Other USA</label><br>
+		
+		<input type="checkbox" id="portugal" name="wine-region" value="Portugal">
+		<label for="portugal">Portugal</label><br>
+		
+		<input type="checkbox" id="south-africa" name="wine-region" value="South Africa">
+		<label for="south-africa">South Africa</label><br>
+		
+		<input type="checkbox" id="spain" name="wine-region" value="Spain">
+		<label for="spain">Spain</label><br>
+		
+		<input type="checkbox" id="washington" name="wine-region" value="Washington">
+		<label for="washington">Washington</label><br>
+		</div>
+	</div>
+
+		<h3 class="heading">Departments</h3>
+		<div class="checkboxes-container">
+		
+		<div class="checkbox-group">
+			<input type="checkbox" id="beer" name="department" value="Beer">
+			<label for="beer">Beer</label><br>
+		</div>
+		
+		<div class="checkbox-group">
+			<input type="checkbox" id="spirits" name="department" value="Spirits">
+			<label for="spirits">Spirits</label><br>
+		</div>
+		
+		<div class="checkbox-group">
+			<input type="checkbox" id="Sake" name="department" value="Sake">
+			<label for="classes-events">Sake</label><br>
+		</div>
+		
+		<div class="checkbox-group">
+			<input type="checkbox" id="classes-events" name="department" value="Classes & Events">
+			<label for="classes-events">Classes & Events</label><br>
+		</div>
+	</div>
+			<div class="button-container">
+    <input type="submit" id="submit-button" value="Submit">
+</div>	
+
+	<!-- <div class="button-container">
+		<a href="https://www.winehouse.com" class="button-link">Back to Home</a>
+	</div> -->
+	<div class="home-button-container">
+    <a href="https://www.winehouse.com" class="home-button">Home</a>
+</div>
+		</form>
+    <script src="script.js"></script>
+</body>
+
+</html>
+</div>
