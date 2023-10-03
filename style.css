@@ -19,20 +19,20 @@ form {
 .input-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15px; /* Adjust as needed */
+    margin-bottom: 15px; 
 }
 
 .input-group {
     flex: 1;
-    margin-left: 50px; /* Or your desired spacing */
+    margin-left: 20px;
 }
 
 .input-group:last-child {
-    margin-right: 0; /* Ensures the last input group doesn’t have extra margin */
+    margin-right: 0;
 }
 
 .input-group label {
-    width: 100%;
+    width: 95%;
     text-align: l;
     margin-right: 15px;
 }
@@ -79,7 +79,7 @@ h1 {
     font-size: 16px;
     margin-bottom: 10px;
     position: relative;
-    padding-bottom: 8px;
+    padding-bottom: 20px;
 }
 
 .heading:after {
@@ -130,7 +130,7 @@ a.button-link {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Added transitions */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
     display: block;
     margin: 30px auto;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -174,15 +174,14 @@ a.button-link:active {
     display: block;
     height: 1px;
     background-color: #ddd;
-    width: 78%;
-    //*margin: 20px auto;*//
+    width: 100%;
+    margin: 20px auto;
 }
 
 .checkbox-group {
     flex: 1 0 48%;
 }
 
-/* Add a class for the animation */
 .submitting {
     background-color: #A4383B;
     width: 400px;
@@ -200,9 +199,8 @@ a.button-link:active {
     text-decoration: none;
 }
 
-/* Add a class for the "Done" state */
 .done {
-    background-color: #3daa69; /* Green color or your choice */
+    background-color: #3daa69; 
     cursor: default;
 }
 
@@ -216,12 +214,10 @@ a.button-link:active {
     }
 }
 
-/* Apply the animation to the button */
 .submitting {
     animation: progressAnimation 2s linear forwards;
 }
 
-/* Change the cursor when hovering over the "Done" button */
 .done {
     cursor: default;
 }
@@ -249,17 +245,17 @@ a.button-link:active {
 }
 
 @media (max-width: 768px) {
-    body { 
+    body {
     margin: 10px;
-    }
-    
-    h1 {
+	}
+	
+	h1 {
     font-size: 22px;
 	}
 	
 	form {
         width: 100%;
-        padding: 20px;
+        padding: 10px;
     }
 
     .input-row {
@@ -270,7 +266,7 @@ a.button-link:active {
 
     .input-group {
         flex: 1;
-        margin-left: 0;
+        margin-left: 8px;
         margin-bottom: 0px;
 		width: 100%;
     }
@@ -300,5 +296,11 @@ a.button-link:active {
     100% {
         width: 100%;
     }
-}	
 }
+}
+
+@media (max-width: 900px) {
+    .heading:after {
+	   width: 100%;
+    }	
+]
