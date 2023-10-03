@@ -1,3 +1,11 @@
+.container {
+    /* Your container-specific styles here */
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 900px; /* Set a maximum width for the container */
+    padding: 20px; /* Add padding as needed */
+}
+
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -24,7 +32,7 @@ form {
 
 .input-group {
     flex: 1;
-    margin-left: 60px; /* Or your desired spacing */
+    margin-left: 50px; /* Or your desired spacing */
 }
 
 .input-group:last-child {
