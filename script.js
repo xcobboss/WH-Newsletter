@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', function () {
         const atLeastOneChecked = Array.from(checkboxes).some(checkbox => checkbox.checked);
 
         if (!atLeastOneChecked) {
-            alert('Please select at least one wine region or department.'); // You can customize the error message
+            alert('Please select at least one wine region or department.'); // error message
         } else {
-            // Add the submitting class and animate the button
+            // submitting class and animate the button
             submitButton.value = 'Submitting...';
             submitButton.classList.add('submitting');
 
@@ -35,9 +35,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 // Show the "Home" button container
                 homeButtonContainer.style.display = 'block';
-            }, 2000); // Change this value to match your actual submission time
+            }, 2000); // submission time
 
-            // You can also submit the form to your server here
+            // Submit the form to your server here
             // Example: form.submit();
         }
     });
