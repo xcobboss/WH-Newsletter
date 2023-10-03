@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const atLeastOneChecked = Array.from(checkboxes).some(checkbox => checkbox.checked);
 
         if (!atLeastOneChecked) {
-            alert('Please select at least one checkbox.'); // You can customize the error message
+            alert('Please select at least one wine region or department.'); // You can customize the error message
         } else {
             // Add the submitting class and animate the button
             submitButton.value = 'Submitting...';
