@@ -289,4 +289,12 @@ a.button-link:active {
     input[type="submit"] {
         width: 100%;
     }
+	@keyframes progressAnimation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}	
 }
