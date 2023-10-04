@@ -303,4 +303,7 @@ a.button-link:active {
     .heading:after {
 	   width: 100%;
     }	
-]
+    input[type="checkbox"] + label {
+    width: 140px;
+}
+}
