@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 homeButtonContainer.style.display = 'block';
             }, 2000); // submission time
 
-            // Submit the form to your server here
+            // Submit the form to server or activecampaign here
             // Example: form.submit();
         }
     });
